@@ -1,6 +1,5 @@
 package upgrade.upgbot.Entity;
 
-import jdk.jfr.Enabled;
 import lombok.*;
 import upgrade.upgbot.Entity.AbsEntity.AbsNameEntity;
 
