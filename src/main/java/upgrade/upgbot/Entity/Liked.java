@@ -18,9 +18,9 @@ public class Liked {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany
     private List<Product> products;
 
-    @OneToMany(fetch = FetchType.EAGER)
+    @OneToMany
     private List<User> users;
 }
