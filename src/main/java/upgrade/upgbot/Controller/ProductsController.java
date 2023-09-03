@@ -10,6 +10,7 @@ import upgrade.upgbot.Repository.ProductRepository;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/product")
