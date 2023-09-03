@@ -1,10 +1,10 @@
 package upgrade.upgbot.Entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.ManyToOne;
 import lombok.*;
 import upgrade.upgbot.Entity.AbsEntity.AbsNameEntity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
 
 
 @Getter

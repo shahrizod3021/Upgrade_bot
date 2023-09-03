@@ -1,9 +1,9 @@
 package upgrade.upgbot.Entity;
 
-import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.repository.query.SpelQueryContext;
 
+import javax.persistence.*;
 import java.util.List;
 
 @Getter

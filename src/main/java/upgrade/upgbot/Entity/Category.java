@@ -1,10 +1,10 @@
 package upgrade.upgbot.Entity;
 
-import jakarta.persistence.Entity;
 import lombok.*;
 import org.telegram.telegrambots.meta.api.objects.File;
 import upgrade.upgbot.Entity.AbsEntity.AbsNameEntity;
 
+import javax.persistence.Entity;
 import java.util.List;
 
 @Getter
